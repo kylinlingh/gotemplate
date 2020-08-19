@@ -12,6 +12,7 @@ import (
 
 var GlobalLogger *zap.SugaredLogger
 
+
 func init() {
 	var coreArray []zapcore.Core
 	encoder := getEncoder()
